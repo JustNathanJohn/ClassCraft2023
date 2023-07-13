@@ -1,0 +1,412 @@
+
+.nav{
+	color: white;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+	background-color:#ffa500;
+	width: 100%;
+	font-family: georgia;
+	box-shadow: 5px 5px 5px;
+	text-shadow: 1px 5px 7px #000000cc;
+	
+
+}
+li {
+	display: inline
+}
+li a{
+	text-decoration: none;
+	color: black;
+	border-right: 2px solid white;
+	padding: 15px;
+	margin: auto;
+	transition: .3s;
+
+}
+ul{
+	-webkit-padding-start:0px;
+}
+.main{
+	margin-top: 15px; 
+	font-size: 50px;
+	font-family: ;
+}
+.body{
+	background-image: url(Images/aa1.png);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-color: #4863A0;
+	margin: 0px;
+}
+h1{
+	margin: 0px
+}
+.img1{
+	border-radius: 10em;
+	width: 30px;
+}
+.img {
+	height:500px;
+	width: 100%;
+}
+audio{
+	width: 100%;
+}
+li a:hover{
+	font-size: 30px;
+	background-color: #ffeb3bd6;
+	transition:  .4s;
+
+}
+.home{
+	background-color: #4863a0;
+	margin: 0px;
+}
+.curriculum{
+	background-color: #4e8889;
+	margin: 0px;
+}
+.about{
+	background-color: #2e6766;
+	margin: 0px;
+}
+
+
+@keyframes slider {
+
+	0%{
+		left:0;
+	}
+	10%{
+		left:0;
+	}
+	15%{
+		left:-100%;
+	}
+	25%{
+		left:-100%;
+	}
+	35%{
+		left: -200%;
+	}
+	40%{
+		left:-200%;
+	}
+	50%{
+		left:-300%;
+	}
+	55%{
+		left:-400%;
+	}
+
+}
+#slider{
+	overflow: hidden
+}
+#slider figure img {
+	width:20%;
+	float:left;
+}
+#slider figure{
+	position: relative;
+	width: 500%;
+	margin:0;
+	left:0;
+ 	text-align:left;
+ 	font-size: 0;
+ 	animation:30s slider infinite;
+}
+.yey{
+	font-size: 56px;
+	text-align: center;
+	background-color: #fbc02d;
+	margin: 0px;
+	color: #000000;
+}
+#headlines{
+	font-family: lovelo black;
+	float: right;
+	text-align: left;
+	font-size: 70px;
+	border-right: 2px solid white;
+	padding-right: 20px;
+	text-shadow: 20px -11px 18px #0D47A1;
+}
+#headliness{
+	font-size: 30px;
+	font-family: doctor glitch;
+	text-indent: 30px;
+	padding-top: 10px;
+}
+#float{
+	float: right;
+}
+#padding{
+	font-family: footlight mt light;
+	font-size: 37px;
+	padding-left: 30px;
+}
+.mi{
+	background-color:#ffffff9c;
+	text-align: center;
+}
+#he{
+	font-size: 72px;
+	font-family: Harabara Mais Demo;
+	margin-bottom: 0px;
+	text-shadow: 20px 6px 20px #FFEB3B;
+}
+#hi{
+	font-size: 64px;
+	font-family: corbel;
+	margin-top: 0px;
+}
+#content{
+	font-size: 32px;
+	font-family: footlight mt;
+	margin-left: 10px;
+	text-indent: 20px;
+}
+#a1{
+	margin: 5% 10% 5% 10%;
+	background-color: white;
+	height	: 500px;
+}
+#a2{
+	margin: 5% 5% 3% 5%;
+	background-color: white;
+	height: 750px;
+}
+h1{
+	font-family: Amethyst;
+	font-size:64px;
+}
+.tour{
+	color: white;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+	background-color: #6da9ab80;
+	font-family: Harabara Mais Demo;
+	width: 20%
+}
+.dropdown{
+	position:relative;
+	display: inline-block;
+}
+.dropdown-content{
+	display:none;
+	position: absolute;
+	background-color:#0d3333b8;
+	min-width: 300px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	z-index:1;
+	text-decoration: none;
+	left: 3em;
+	font-family: harabara mais demo;
+}
+.dropdown:hover
+.dropdown-content {
+	display:block;
+
+}
+p a:hover{
+	background-color: yellow;
+	color: white;
+	transition: .6s;
+}
+p a{
+	text-decoration: none;
+	color: white;
+	padding: 12px 16px;
+}
+.juniorhigh{
+	font-size: 16px;
+	margin: 10%;
+	box-shadow: 5px 5px 5px;
+	color: black;
+	border: 3px solid black;
+	background-color: #ffffffba;
+}
+#a3{
+	float: right;
+}
+h4 a{
+	text-decoration: none;
+	font-size: 19px;
+	padding: 12px 16px;
+	margin:10px 10px 15px 10px;
+	color: black;
+}
+h4 a:hover{
+	font-size: 23px;
+	background-color: #ffe000a6;
+	padding: 12px 16px;
+	color: white;
+	transition: .6s;
+}
+h5 {
+	display: inline
+}
+h5 a{
+	text-decoration: none;
+	color: black;
+	border: 2px dashed black;
+	padding: 15px;
+	margin: 0px 35px;
+	font-size: 20px;
+	border-radius: 1em;
+	font-family: felix titling;
+}
+h5 a:hover{
+	background-color: yellow;
+	font-size: 25px;
+	transition: .4s;
+}
+.subjects{
+	background-image: URL(Images/4.jpg);
+	background-repeat: no-repeat;
+}
+.organizational{
+	background-color: #81c0d1;
+}
+h6{
+	font-size: 45px;
+	text-shadow: 20px -12px 14px black;
+	margin-bottom: 5px;
+
+}
+#logo{ 
+	width: 300px;
+	height: 300px;
+}
+.hestory{
+	border: 4px solid lightgoldenrodyellow;
+	background-color: #ffffffba;
+	margin: 5%;
+	width: auto;
+	height: 100%;
+	box-shadow: 13px 14px 18px black;
+	text-indent: 20px;
+	text-align: justify;
+	padding: 0px 5px;
+
+}
+.heistory{
+	border: 4px solid lightgoldenrodyellow;
+	background-color: #f6f6f6;
+	margin: 5%;
+	width: auto;
+	height: 100%;
+	box-shadow: 13px 14px 18px black;
+	text-indent: 20px;
+	text-align: justify;
+	padding: 0px 5px;
+}
+#video{
+	padding: 0px 10% 0px 10%; 
+	height:540px;
+}
+.history{
+	padding: 40px;
+}
+.chart{
+	margin: 6%;
+	background-color: #eaf0f0;
+	height: 7000px; 
+}
+.column{
+	float:left;
+	height: 50%;
+	width: 50%;
+}
+
+.p1{
+	font-family: footlight mt light;
+	font-size: 18px;
+	padding-left: 8px;
+}
+td{
+	font-size: 20px;
+	font-family: footlight mt light;
+	letter-spacing: 4px;
+}
+th{
+	font-size: 30px;
+	font-family: edition;
+	letter-spacing: 5px;
+}
+.p2{
+	font-size: 20px;
+	font-family: lovelo black ;
+
+}
+.p3{
+	font-size: 17px;
+	font-family: footlight mt light;
+}
+h2{
+	font-family: doctor glitch;
+	letter-spacing: 3px;
+	font-size: 25
+}
+.p4{
+	font-size: 20px;
+	font-family: footlight mt light;
+}
+.imgg{
+	float: right;
+	height: 350px;
+	width: 350px;
+	border-radius: 5em;
+
+}
+.p5{
+	font-family: footlight mt light;
+	font-size: 18px;
+	padding-left: 8px;
+	text-indent: 15px;
+}
+#a4{
+	margin: 5% 5% 3% 5%;
+	background-color: white;
+	height: 1360px;
+}
+.a5{
+	margin: 5% 5% 3% 5%;
+	background-color: white;
+	height: 890px;
+}
+.a6{
+	margin: 5% 5% 3% 5%;
+	background-color: white;
+	height: 500px;
+}
+th a{
+	text-decoration: none;
+	margin-right: 15px;
+	font-size: 25px;
+	color: black;
+
+}
+th a:hover{
+	font-size: 30px;
+	transition: .3s;
+}
+.a7{
+	margin: 5% 5% 3% 5%;
+	background-color: white;
+	height: 350px;
+}
+.a8{
+	margin: 5% 5% 3% 5%;
+	background-color: white;
+	height: 1200px;
+}
+.clubsss{
+	margin: 5% 5% 3% 5%;
+	background-color: white;
+	height: 5000px;
+}
